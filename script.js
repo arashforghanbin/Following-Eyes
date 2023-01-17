@@ -19,7 +19,6 @@ events.forEach((eventType) => {
       let eyeX = eye.getBoundingClientRect().left + eye.clientWidth / 2;
       // gets the eyes y poisition from their centers
       let eyeY = eye.getBoundingClientRect().top + eye.clientHeight / 2;
-      console.log(eyeX, eyeY);
 
       // getting the cursor's position from the top left of the screen
       let x = !isDeviceTouchScreen() ? event.clientX : event.touches[0].clientX;
